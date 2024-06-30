@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300;400;600&family=Bebas+Neue&family=Fraunces:opsz,wght@9..144,700&family=Fredoka+One&family=Heebo:wght@400;600;900&family=Lato:ital,wght@0,400;0,700;1,400&family=McLaren&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@200;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+html{
+  font-family: "Montserrat", sans-serif;
+}
+body{
+  background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+  background: #EAF6F6;
+}
+header{
+  background: linear-gradient(135deg, #f403d1,#64b5f6); 
+  padding: 1rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+
+}
+header h1{
+  font-family: "McLaren", cursive;
+  font-weight: 400;
+  margin-left: 3rem;
+  color: #fff;
+}
+section {
+  color: white;
+  display: flex;
+  
+
+}
+.note{
+  margin: 1rem;
+  float: left;
+  color: #EAF6F6;
+  background: linear-gradient(135deg, #f403d1,#64b5f6); 
+  padding: 1rem;
+  width: 15rem;
+  border-radius: 8px;
+  /* backdrop-filter: blur(2rem); */
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.237);
+}
+h1{
+  font-weight: 500;
+  margin-bottom: 1rem ;
+}
+p{
+  font-weight: 300;
+
+}
+.footer{
+  /* display: flex; */
+  color: gray;
+  /* justify-content: center;
+  align-items: center;
+  align-content: center; */
+ 
+}
+.footer p{
+  /* align-self: flex-end ; */
+  color: #EAF6F6;
+}
+
+
+.input{
+  width: 60%;
+  /* background: #FF0063; */
+
+}
+input,textarea{
+  border: none;
+  outline: none;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+font-size: 1.2rem;
+  
+}
+
+.input{
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ width: 35rem;
+  margin: 2rem;
+  box-shadow: 10px 10px 20px  rgba(0, 0, 0, 0.2) ;
+  padding: 2rem;
+  border-radius: 8px ;
+  position: relative;
+ 
+}
+button{
+  height: 2.5rem;
+  right: 2rem;
+  bottom: 1rem;
+  color: #fff;
+  border: none;
+  box-shadow: 10px 10px 20px  rgba(0, 0, 0, 0.1) ;
+
+}
+
+
+.input button{
+  background: linear-gradient(135deg, #f403d1,#64b5f6); 
+
+  position: absolute;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 50%;
+
+ 
+}
+section{
+  display: flex;
+  justify-content: center;
+
+}
+.note{
+  position: relative;
+}
+.note button{
+  position: absolute;
+  color: #fff ;
+  background:none;
+  width: 1.5rem;
+  height: 1.5rem;
+}
